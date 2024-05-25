@@ -36,12 +36,17 @@ nav {
 .name-logo {
   /* font-size: 16px; */
   display: flex;
+  justify-content: center;
   align-items: center;
 }
+
+
 .name-logo p {
   font-size: 16px;
   font-family: Poppins;
-  font-weight: 500px;
+  font-weight: 500;
+  height: 100%;
+  margin-bottom: 0;
 }
 .img {
   display: flex;
@@ -109,4 +114,104 @@ nav {
   background-color: #f2f2f2;
   padding: 10px 20px;
   width: 180px;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+padding-inline: 100px;
+}
+
+
+#brand {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    background-color: #FCEFCA;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-block: 30px;
+}
+
+.alert p {
+    font-size: 14px;
+}
+
+.alert > p > span {
+    color: #00c3ff;
+    cursor: pointer;
+}
+
+.dream-vacation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.dream-vacation .title {
+    font-weight: 600;
+}
+
+.dream-vacation .description {
+    font-size: 14px;
+}
+
+.dream-vacation-list  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inspiration-trip {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inspiration-trip-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inspiration-trip-item img {
+    width: 420px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.inspiration-trip-item {
+    position: relative;
+}
+
+.inspiration-trip-item .info {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.inspiration-trip-item .description {
+    font-size: 12px;
+}
+
+.inspiration-trip-item .title {
+    font-size: 18px;
 }
