@@ -106,17 +106,24 @@ nav {
   margin-left: 150px;
   border-radius: 8px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
 }
 .about p {
   font-family: Poppins;
   font-size: 12px;
   border-radius: 16px;
-  background-color: #f2f2f2;
+
   padding: 10px 20px;
   width: 180px;
     margin: 0;
     padding: 0;
     font-family: Poppins;
+}
+
+.about {
+  background-color: #f2f2f2;
+  padding: 10px;
 }
 
 body {
