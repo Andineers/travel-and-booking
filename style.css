@@ -34,12 +34,10 @@ nav {
 }
 
 .name-logo {
-  /* font-size: 16px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .name-logo p {
   font-size: 16px;
@@ -100,118 +98,121 @@ nav {
   height: 64px;
   width: 1030px;
   background-color: white;
-  /* margin-top: -30px; */
-  top: 600px;
+  top: 595px;
   position: absolute;
   margin-left: 150px;
   border-radius: 8px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+
+}
+.action-container {
+  display: flex;
+  align-items: center;
+
 }
 .about p {
   font-family: Poppins;
   font-size: 12px;
-  border-radius: 16px;
+  border-radius: 5px;
   background-color: #f2f2f2;
+  height: 43px;
   padding: 10px 20px;
   width: 180px;
-    margin: 0;
-    padding: 0;
-    font-family: Poppins;
+  top: px;
+
 }
 
 body {
-padding-inline: 100px;
+  padding-inline: 100px;
 }
 
-
 #brand {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .alert {
-    display: flex;
-    align-items: center;
-    background-color: #FCEFCA;
-    padding: 16px 20px;
-    gap: 10px;
-    border-radius: 10px;
-    margin-block: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fcefca;
+  padding: 16px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  margin-block: 30px;
 }
 
 .alert p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .alert > p > span {
-    color: #00c3ff;
-    cursor: pointer;
+  color: #00c3ff;
+  cursor: pointer;
 }
 
 .dream-vacation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
 }
 
 .dream-vacation .title {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .dream-vacation .description {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.dream-vacation-list  {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.dream-vacation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .inspiration-trip {
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .inspiration-trip-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .inspiration-trip-item img {
-    width: 420px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 420px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .inspiration-trip-item {
-    position: relative;
+  position: relative;
 }
 
 .inspiration-trip-item .info {
-    position: absolute;
-    bottom: 0;
-    color: #fff;
-    padding: 10px;
-    padding-bottom: 15px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 15px;
 }
 
 .inspiration-trip-item .description {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .inspiration-trip-item .title {
-    font-size: 18px;
+  font-size: 18px;
 }
