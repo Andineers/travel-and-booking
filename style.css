@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Poppins;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 
 .menu {
   display: flex;
-  gap: 80px;
+  gap: 60px;
 }
 
 .menu li {
@@ -28,9 +29,10 @@ body {
 nav {
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   gap: 150px;
   margin-top: 20px;
+  justify-content: space-between;
 }
 
 .name-logo {
@@ -75,6 +77,11 @@ nav {
 .auth button {
   background-color: transparent;
 }
+.auth a{
+  text-decoration: none;
+  font-family: Poppins;
+
+}
 
 #btn-register {
   border: 1px solid #2f80ed;
@@ -103,6 +110,11 @@ nav {
   margin-left: 150px;
   border-radius: 8px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 12px;
 
 }
 .action-container {
@@ -113,12 +125,27 @@ nav {
 .about p {
   font-family: Poppins;
   font-size: 12px;
-  border-radius: 5px;
+  border-radius: 16px;
+  margin-bottom: 0;
+}
+.about {
   background-color: #f2f2f2;
-  height: 43px;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
   width: 180px;
-  top: px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  gap: 10px;
+
+ 
+}
+#btn-search {
+  background-color: #2f80ed;
+  font-family: Poppins;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
 
 }
 
