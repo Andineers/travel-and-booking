@@ -4,9 +4,9 @@
   font-family: Poppins;
 }
 
-body {
+/* body {
   padding-inline: 100px;
-}
+} */
 
 .menu {
   display: flex;
@@ -37,7 +37,6 @@ nav {
 
 .name-logo {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -149,9 +148,6 @@ nav {
 
 }
 
-body {
-  padding-inline: 100px;
-}
 
 #brand {
   display: flex;
@@ -162,6 +158,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-inline: 100px;
 }
 
 .alert {
@@ -281,6 +278,66 @@ main {
   height: 45px !important;
   padding-inline: 18px;
   width: 200px;
+}
 
 
+#slogan {
+  margin-block: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+#slogan p {
+  text-align: center;
+}
+
+#slogan .slogan-desc {
+  color: #2F80ED;
+}
+
+#slogan .slogan-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+
+.foot-menu {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.foot-menu-item p {
+  color: #4F4F4F;
+  font-size: 14px;
+}
+.slogan-footer {
+  margin-block: 15px;
+}
+
+.foot-menu-item h5 {
+  margin-bottom: 15px;
+}
+
+.foot-menu-item .foot-menu-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.see-more {
+  color : #2F80ED !important;
+}
+
+#footer-bottom {
+  background-color: #EBEBEB;
+  padding-block: 10px;
+  padding-inline: 205px;
+}
+
+#footer-bottom p {
+  text-align: right !important;
 }
