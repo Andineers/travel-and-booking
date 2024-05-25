@@ -26,6 +26,10 @@
   margin-left: 2px;
 }
 
+header {
+  padding-inline: 100px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -152,6 +156,10 @@ nav {
 #brand {
   display: flex;
   align-items: center;
+}
+
+button {
+  cursor: pointer;
 }
 
 main {
