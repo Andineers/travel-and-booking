@@ -4,9 +4,9 @@
   font-family: Poppins;
 }
 
-body {
+/* body {
   padding-inline: 100px;
-}
+} */
 
 .menu {
   display: flex;
@@ -14,7 +14,7 @@ body {
 }
 
 .menu li {
-  list-style: none;
+  list-style: none; 
   font-family: Poppins;
   font-weight: 400;
   font-size: 20px;
@@ -24,6 +24,10 @@ body {
   color: black;
   font-size: 14px;
   margin-left: 2px;
+}
+
+header {
+  padding-inline: 100px;
 }
 
 nav {
@@ -37,7 +41,6 @@ nav {
 
 .name-logo {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -100,6 +103,27 @@ nav {
   gap: 10px;
   width: 92px;
 }
+
+/* Gaya Hover untuk Register */
+#btn-register:hover {
+  background-color: #2f80ed; /* Ganti background */
+  color: white; /* Ubah warna teks */
+  cursor: pointer; /* Tambahkan ikon tangan */
+  transform: scale(1.05); /* Efek pembesaran */
+  transition: 0.3s; /* Efek transisi */
+}
+
+/* Gaya Hover untuk Sign In */
+#btn-signin:hover {
+  background-color: transparent; /* Buat transparan */
+  color: #2f80ed; /* Ubah warna teks */
+  border: 1px solid #2f80ed; /* Pertahankan warna border */
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+
 #info {
   height: 64px;
   width: 1030px;
@@ -143,19 +167,21 @@ nav {
   border-radius: 5px;
 }
 
-body {
-  padding-inline: 100px;
-}
 
 #brand {
   display: flex;
   align-items: center;
 }
 
+button {
+  cursor: pointer;
+}
+
 main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-inline: 100px;
 }
 
 .alert {
@@ -268,4 +294,66 @@ main {
   height: 45px !important;
   padding-inline: 18px;
   width: 200px;
+}
+
+
+#slogan {
+  margin-block: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+#slogan p {
+  text-align: center;
+}
+
+#slogan .slogan-desc {
+  color: #2F80ED;
+}
+
+#slogan .slogan-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+
+.foot-menu {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.foot-menu-item p {
+  color: #4F4F4F;
+  font-size: 14px;
+}
+.slogan-footer {
+  margin-block: 15px;
+}
+
+.foot-menu-item h5 {
+  margin-bottom: 15px;
+}
+
+.foot-menu-item .foot-menu-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.see-more {
+  color : #2F80ED !important;
+}
+
+#footer-bottom {
+  background-color: #EBEBEB;
+  padding-block: 10px;
+  padding-inline: 205px;
+}
+
+#footer-bottom p {
+  text-align: right !important;
 }
