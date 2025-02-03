@@ -26,6 +26,10 @@
   margin-left: 2px;
 }
 
+.menu li a:hover {
+  color: #2f80ed;
+}
+
 header {
   padding-inline: 100px;
 }
@@ -139,6 +143,7 @@ nav {
   gap: 12px;
   padding-left: 12px;
 }
+
 .action-container {
   display: flex;
   align-items: center;
@@ -167,6 +172,14 @@ nav {
   border-radius: 5px;
 }
 
+#btn-search:hover {
+  background-color: transparent; 
+  color: #2f80ed; 
+  border: 1px solid #2f80ed; 
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
 
 #brand {
   display: flex;
@@ -296,6 +309,14 @@ main {
   width: 200px;
 }
 
+#btn-download:hover {
+  background-color: transparent; 
+  color: #2f80ed; 
+  border: 1px solid #2f80ed; 
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
 
 #slogan {
   margin-block: 30px;
